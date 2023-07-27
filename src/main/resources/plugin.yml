@@ -1,0 +1,19 @@
+name: KashooKraft
+version: '${project.version}'
+main: me.lewisblackburn.kashookraft.KashooKraft
+api-version: '1.20'
+commands:
+  FindPlayer:
+    description: Finds the location of a player
+    aliases:
+      - find
+  ToggleProtection:
+    description: Disables TNT damage and fire until command reissued
+    aliases:
+      - xx
+  FindHealth:
+    description: Find player health
+    aliases:
+      - health
+  KashooQuote:
+    description: Set a players quote
